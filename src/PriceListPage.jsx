@@ -158,7 +158,7 @@ const priceListData = [
   {
     id: 'byd-atto-1',
     name: 'BYD Atto 1',
-    category: 'SUV',
+    category: 'Hatchback',
     image: './images/BYD/BYD-Atto1-Sprout Green.png',
     variants: [
       {

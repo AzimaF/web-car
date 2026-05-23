@@ -92,12 +92,12 @@ function App() {
 
   const models = [
     {
-      id: 'seal',
-      carDetailId: 'byd-seal',
-      name: 'BYD Seal',
-      desc: 'Rasakan kemewahan dan performa dalam sedan listrik premium yang aerodinamis.',
-      price: 'Mulai dari Rp639.000.000',
-      image: './images/Cover-BYD/Cover-BYD-Seal.png',
+      id: 'atto1',
+      carDetailId: 'byd-atto-1',
+      name: 'BYD Atto 1',
+      desc: 'Solusi mobilitas cerdas dalam mobil listrik kompak yang dirancang untuk perkotaan.',
+      price: 'Mulai dari Rp199.000.000',
+      image: './images/Cover-BYD/Cover-BYD-Atto1.png',
     },
     {
       id: 'sealion7',
@@ -112,7 +112,7 @@ function App() {
       carDetailId: 'byd-atto-3',
       name: 'BYD ATTO 3',
       desc: 'Solusi mobilitas perkotaan yang cerdas dalam mobil listrik yang ringkas dan terjangkau.',
-      price: 'Mulai dari Rp390.000.000',
+      price: 'Mulai dari Rp415.000.000',
       image: './images/Cover-BYD/Cover-BYD-Atto3.png',
     }
   ];
