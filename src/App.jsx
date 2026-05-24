@@ -128,7 +128,7 @@ function App() {
     { title: 'Test Drive Gratis', desc: 'Rasakan pengalaman berkendara BYD dengan test drive gratis' },
     { title: 'Bantuan Kredit & Leasing', desc: 'Solusi pembiayaan fleksibel dengan proses cepat' },
     { title: 'Service Center', desc: 'Layanan purna jual dengan teknisi bersertifikat BYD' },
-    { title: 'Trade-in Kendaraan', desc: 'Tukar tambah kendaraan lama Anda dengan harga terbaik' },
+    { title: 'Trade-in Kendaraan', desc: 'Tukar tambah All Brand atau All Merk Kendaraan lama dengan harga terbaik' },
   ];
 
   return (
@@ -435,7 +435,7 @@ function App() {
                     <Users size={24} style={{ color: 'var(--accent-color)', flexShrink: 0 }} />
                     <div>
                       <h4 style={{ marginBottom: '0.2rem', fontSize: '1.1rem' }}>Area Layanan:</h4>
-                      <p className="feature-desc">Serpong, Tangerang, Alam Sutera, Gading Serpong, Bintaro, Pamulang, dan sekitarnya</p>
+                      <p className="feature-desc">Serpong, Tangerang, Alam Sutera, Gading Serpong, Bintaro, Pamulang, dan sekitarnya hingga seluruh Indonesia.</p>
                     </div>
                   </div>
                 </div>
