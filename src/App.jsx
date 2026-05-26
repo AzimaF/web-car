@@ -189,6 +189,7 @@ function App() {
                 {[
                   { name: 'BYD Dolphin', img: './images/BYD/BYD-Dolphin-Surf Blue.png', id: 'byd-dolphin' },
                   { name: 'BYD M6', img: './images/BYD/BYD-M6-Crystal White.png', id: 'byd-m6' },
+                  { name: 'BYD M6 DM', img: './images/BYD/BYD-M6 DM-CRYSTAL WHITE.png', id: 'byd-m6-dm' },
                   { name: 'BYD Sealion 7', img: './images/BYD/BYD-Sealion7-AURORA WHITE.png', id: 'byd-sealion-7' },
                   { name: 'BYD Atto 3', img: './images/BYD/BYD-Atto3-Surf Blue.png', id: 'byd-atto-3' },
                   { name: 'BYD Seal', img: './images/BYD/BYD-Seal-AURORA WHITE.png', id: 'byd-seal' },
@@ -234,6 +235,7 @@ function App() {
                 { name: 'BYD Atto 3', id: 'byd-atto-3' },
                 { name: 'BYD Dolphin', id: 'byd-dolphin' },
                 { name: 'BYD M6', id: 'byd-m6' },
+                { name: 'BYD M6 DM', id: 'byd-m6-dm' },
                 { name: 'BYD Sealion 7', id: 'byd-sealion-7' },
                 { name: 'BYD ATTO 1', id: 'byd-atto-1' },
               ].map((car) => (

@@ -267,6 +267,63 @@ export const carData = {
     },
   },
 
+  'byd-m6-dm': {
+    id: 'byd-m6-dm',
+    name: 'BYD M6 DM',
+    tagline: 'Plug-in Hybrid Family MPV',
+    slogan: 'Go Further, Together',
+    description:
+      'BYD M6 DM (Dual Mode) hadir sebagai MPV keluarga plug-in hybrid yang revolusioner. Menggabungkan mesin bensin dengan motor listrik berteknologi DM-i, M6 DM menawarkan efisiensi bahan bakar yang luar biasa, jangkauan tanpa batas, dan kenyamanan berkendara keluarga premium dengan kabin yang lega dan fitur teknologi terkini.',
+    highlights: [
+      'Teknologi Dual Mode (DM-i) Plug-in Hybrid terdepan',
+      'Kabin 7-seater luas dengan konfigurasi fleksibel',
+      'Konsumsi BBM super efisien hingga 100 km/liter',
+      'Layar sentuh 15,6 inch rotating yang canggih',
+    ],
+    heroImage: './images/BYD/BYD-M6 DM-CRYSTAL WHITE.png',
+    coverImage: './images/Cover-BYD/Cover-BYD-M6 DM.png',
+    colorImage: './images/BYD/BYD-M6 DM-CRYSTAL WHITE.png',
+    colors: [
+      { name: 'Crystal White', hex: '#ECF0F1', cssFilter: 'none', image: './images/BYD/BYD-M6 DM-CRYSTAL WHITE.png' },
+      { name: 'Cosmos Black', hex: '#1A1A2E', cssFilter: 'none', image: './images/BYD/BYD-M6 DM-COSMOS BLACK.png' },
+      { name: 'Quartz Blue', hex: '#2E86C1', cssFilter: 'none', image: './images/BYD/BYD-M6 DM-QUARTZ BLUE.png' },
+      { name: 'Harbour Grey', hex: '#839192', cssFilter: 'none', image: './images/BYD/BYD-M6 DM-HARBOUR GREY.png' },
+    ],
+    variants: [
+      { name: 'Classic Standar', price: 'Rp 310.000.000', specs: { range: '1.000+ km', power: '197 HP', torque: '316 N.m', battery: '15.87 kWh', acceleration: '7.9 dtk' } },
+      { name: 'Classic Dynamic', price: 'Rp 330.000.000', specs: { range: '1.000+ km', power: '197 HP', torque: '316 N.m', battery: '15.87 kWh', acceleration: '7.9 dtk' } },
+      { name: 'Cross Advanced', price: 'Rp 360.000.000', specs: { range: '1.000+ km', power: '197 HP', torque: '316 N.m', battery: '15.87 kWh', acceleration: '7.9 dtk' } },
+      { name: 'Cross Superior (7 Seater)', price: 'Rp 380.000.000', specs: { range: '1.000+ km', power: '197 HP', torque: '316 N.m', battery: '15.87 kWh', acceleration: '7.9 dtk' } },
+      { name: 'Cross Superior (Capt Seat)', price: 'Rp 390.000.000', specs: { range: '1.000+ km', power: '197 HP', torque: '316 N.m', battery: '15.87 kWh', acceleration: '7.9 dtk' } },
+    ],
+    fullSpecs: {
+      Dimensi: {
+        Panjang: '4.710 mm',
+        Lebar: '1.810 mm',
+        Tinggi: '1.755 mm',
+        Wheelbase: '2.800 mm',
+        'Berat Kosong': '1.980 kg',
+      },
+      Powertrain: {
+        'Tipe Mesin': '1.5L Naturally Aspirated + Motor Listrik (DM-i)',
+        'Daya Mesin Bensin': '81 kW (110 HP)',
+        'Daya Motor Listrik': '145 kW (197 HP)',
+        Transmisi: 'e-CVT',
+        Penggerak: 'FWD',
+      },
+      'Wheel & Brake': {
+        'Ukuran Velg': '17 inch',
+        'Rem Depan': 'Ventilated Disc',
+        'Rem Belakang': 'Disc',
+      },
+      Kapasitas: {
+        Penumpang: '7 orang',
+        'Volume Bagasi': '180 L (baris 3 terlipat: 580 L)',
+        'Baterai': '15.87 kWh (PHEV)',
+      },
+    },
+  },
+
   'byd-atto-1': {
     id: 'byd-atto-1',
     name: 'BYD Atto 1',

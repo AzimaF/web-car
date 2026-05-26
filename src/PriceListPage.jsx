@@ -184,9 +184,53 @@ const priceListData = [
       },
     ],
   },
+  {
+    id: 'byd-m6-dm',
+    name: 'BYD M6 DM',
+    category: 'PHEV',
+    image: './images/BYD/BYD-M6 DM-CRYSTAL WHITE.png',
+    variants: [
+      {
+        label: 'Classic Standar',
+        sub: 'PHEV DM-i',
+        price: 'Rp310.000.000',
+        priceNum: 310000000,
+        specs: { torque: '316 N.m', power: '197 HP', range: '1.000+ km', battery: '15.87 kWh', acceleration: '7.9 dtk' },
+      },
+      {
+        label: 'Classic Dynamic',
+        sub: 'PHEV DM-i',
+        price: 'Rp330.000.000',
+        priceNum: 330000000,
+        specs: { torque: '316 N.m', power: '197 HP', range: '1.000+ km', battery: '15.87 kWh', acceleration: '7.9 dtk' },
+      },
+      {
+        label: 'Cross Advanced',
+        sub: 'PHEV DM-i',
+        price: 'Rp360.000.000',
+        priceNum: 360000000,
+        specs: { torque: '316 N.m', power: '197 HP', range: '1.000+ km', battery: '15.87 kWh', acceleration: '7.9 dtk' },
+      },
+      {
+        label: 'Cross Superior',
+        sub: '7 Seater',
+        price: 'Rp380.000.000',
+        priceNum: 380000000,
+        specs: { torque: '316 N.m', power: '197 HP', range: '1.000+ km', battery: '15.87 kWh', acceleration: '7.9 dtk' },
+      },
+      {
+        label: 'Cross Superior',
+        sub: 'Capt Seat',
+        price: 'Rp390.000.000',
+        priceNum: 390000000,
+        specs: { torque: '316 N.m', power: '197 HP', range: '1.000+ km', battery: '15.87 kWh', acceleration: '7.9 dtk' },
+      },
+    ],
+  },
 ];
 
-const CATEGORIES = ['Semua', 'Sedan', 'SUV', 'MPV', 'Hatchback'];
+const CATEGORIES = ['Semua', 'Sedan', 'SUV', 'MPV', 'PHEV', 'Hatchback'];
+
 
 // ── Single Car Price Card ──────────────────────────────────────────────────────
 function PriceCard({ car, onViewDetail }) {
